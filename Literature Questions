@@ -1,0 +1,371 @@
+// Literature 10 questions
+
+void Q11()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Which of the following is NOT written by Munshi Premchand? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Gaban \t\t 2. Guide \n \t\t\t\t\t\t\t\t\t\t 3. Godan \t\t 4. Manasorovar \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. Guide \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q12()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t The book 'To Live or Not Live' was written by \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. V.S. Naipaul \t\t 2. Nirad C. Chaudhuri \n \t\t\t\t\t\t\t\t\t\t 3. George Elliot \t\t 4. Alexandra Dumas \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. Alexandra Dumas \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q13()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Which of the following English films was the first one to be dubbed in Hindi? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Aladdin \t\t 2. Universal Soldier \n \t\t\t\t\t\t\t\t\t\t 3. Speed \t\t 4. Iron Man \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. Aladdin \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q14()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t 'Alice in Wonderland' the famous TV serial is based on a book written by \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Father Discoste \t\t 2. Thomas Hardy \n \t\t\t\t\t\t\t\t\t\t 3. Charles Dickens \t\t 4. Lewis Caroll \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. Lewis Caroll \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q15()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Who wrote 'Where ignorance is bliss, it is folly to be wise'? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Browning \t\t 2. Marx \n \t\t\t\t\t\t\t\t\t 3. Shakespeare \t\t 4. Kipling \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. Shakespeare \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q16()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Name the book which opens with the line 'All children, except one grew up'? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. The Railway Children \t\t 2. Winnie the Poo \n \t\t\t\t\t\t\t\t\t\t 3. Jungle book \t\t 4. Peter Pan \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. Peter Pan \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q17()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Who is the author of the book 'My Experiments with Truth'? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Mahatma Gandhi \t\t 2. Michael Anderson \n \t\t\t\t\t\t\t\t\t\t 3. Winston Churchill \t\t 4. Jarnes Morris \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. Mahatma Gandhi \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q18()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t The author of controversial book 'Lajja' is a citizen of \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Pakistan \t\t 2. Indonesia \n \t\t\t\t\t\t\t\t\t\t 3. Bangladesh \t\t 4. India \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. Bangladesh \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q19()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t The author of controversial book 'Lajja' is a citizen of \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Euclid \t\t 2. Herodotus \n \t\t\t\t\t\t\t\t\t\t 3. Aristotle \t\t 4. Julius Caesar \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. Herodotus \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q20()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t The creator of 'Sherlock Holmes' was \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Arthur Conan Doyle \t\t 2. Ian Fleming \n \t\t\t\t\t\t\t\t\t\t 3. Dr.Watson \t\t 4. Shakespeare \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. Arthur Conan Doyle \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
