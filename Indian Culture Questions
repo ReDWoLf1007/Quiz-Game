@@ -1,0 +1,370 @@
+// Indian Culture 10 questions
+void Q21()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t The ratio of width of our National flag to its length is \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 3:5 \t\t 2. 2:3 \n \t\t\t\t\t\t\t\t\t\t 3. 2:4 \t\t 4. 3:4 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. 2:3 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q22()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Rabindranath Tagore's 'Jana Gana Mana' has been adopted as India's National Anthem.\n\t\t\t\t\t\t\t\t\t\t How many stanzas of the said song were adopted? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Only the first stanza \t\t 2. The whole song \n \t\t\t\t\t\t\t\t\t\t 3. Third and Fourth stanza \t\t 4. First and Second stanza \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. Only the first stanza \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q23()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t 'Dandia' is a popular dance of \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Punjab \t\t 2. Gujarat \n \t\t\t\t\t\t\t\t\t\t 3. Tamil Nadu \t\t 4. Maharashtra \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. Gujarat \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q24()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t 'Kathakali' is a folk dance prevalent in which state? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Tamil Nadu \t\t 2. Orissa \n \t\t\t\t\t\t\t\t\t\t 3. Kerala \t\t 4. Karnataka \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. Kerala \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q25()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t The National Anthem was first sung in the year \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 1911 \t\t 2. 1913 \n \t\t\t\t\t\t\t\t\t\t 3. 1945 \t\t 4. 1947 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. 1911 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q26()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Thillana is a format of \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Kuchipudi \t\t 2. Odissi \n \t\t\t\t\t\t\t\t\t\t 3. Bharatanatyam \t 4. Kathak \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. Bharatanatyam \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q27()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t 'Madhubani', a style of folk paintings, is popular in which of the following states in India? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Uttar Pradesh \t\t 2. Rajasthan \n \t\t\t\t\t\t\t\t\t\t 3. Madhya Pradesh \t\t 4. Bihar \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. Bihar \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q28()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Kathak is a classical dance of \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. North India \t\t 2. Tamilnadu \n \t\t\t\t\t\t\t\t\t\t 3. Manipur \t\t 4. Kerala \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. North India \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q29()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t The last Mahakumbh of the 20th century was held at \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Nasik \t\t 2. Ujjain \n \t\t\t\t\t\t\t\t\t\t 3. Allahabad \t\t 4. Haridwar \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. Haridwar \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q30()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t In which of the following festivals are boat races a special feature? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Onam \t\t 2. Rongali Bihu \n \t\t\t\t\t\t\t\t\t\t 3. Navratri \t\t 4. Pongal \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. Onam \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
