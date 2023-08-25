@@ -1,0 +1,371 @@
+// Maths 10 Questions
+
+void Q31()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t What's the value of 'pi'  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 3.7326 \t\t 2. 3.14159 \n \t\t\t\t\t\t\t\t\t\t 3. 4.91834 \t\t 4. 2.2745 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. '3.14159' \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q32()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t If Ravi's age is 27 years in 2011, what was his age in 2003?  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 37 years\t\t 2. 17 years\n\t\t\t\t\t\t\t\t\t\t 3. 20 years \t\t 4. 19 years \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. 19 years \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q33()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t What is '7%' Equal to  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 0.007\t\t 2. 0.7\n\t\t\t\t\t\t\t\t\t\t 3. 0.07 \t\t 4. 0.0007 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. 0.07 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q34()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t How many years are there in a decade?  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 20\t\t 2. 10 \n\t\t\t\t\t\t\t\t\t\t 3. 100 \t\t 4. 5 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. 10 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q35()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Square of 15 is?  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 225 \t\t 2. 252 \n\t\t\t\t\t\t\t\t\t\t 3. 205 \t\t 4. 220 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. 225 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q36()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Who is the Father of Mathematics?  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Aryabhatt \t\t 2. Pythagoras \n\t\t\t\t\t\t\t\t\t\t 3. Ramanujan \t\t 4. Archimedes \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. Archimedes \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q37()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t How Many Months Make a Century?  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 12 \t\t 2. 120 \n\t\t\t\t\t\t\t\t\t\t 3. 1200 \t\t 4. 12000 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. 1200 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q38()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t How Many Sides are there in a Decagon?  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 7 \t\t 2. 8 \n\t\t\t\t\t\t\t\t\t\t 3. 9 \t\t 4. 10 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. 10 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q39()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Look at this series: 36, 34, 30, 28, …, 22 What number should come to fill in the blank space  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 22 \t\t 2. 24 \n\t\t\t\t\t\t\t\t\t\t 3. 26 \t\t 4. 20 \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. 24 \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q40()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t What is the area of square who's side is 9m ?  \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 18 m sq \t\t 2. 81 m cube \n\t\t\t\t\t\t\t\t\t\t 3. 81 m sq \t\t 4. 91 m cube \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. 81 m sq \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
