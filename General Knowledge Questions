@@ -1,0 +1,373 @@
+// General Knowledge 10 Questions
+
+void Q1()
+{
+    system("cls");
+    
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Who is our current(2023) prime minister of India?\n ";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Pranab Mukherjee \t\t 2. Narendra Modi \n \t\t\t\t\t\t\t\t\t\t 3. Rahul Gandhi \t\t 4. Arvind Kejriwal\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            // SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), {1,1});
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. Narendra Modi\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }
+    }
+    else  goto a;       
+}
+
+void Q2()
+{
+    system("cls");
+    
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t How many states does INDIA currently(2023) have? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 27 \t\t 2. 28 \n \t\t\t\t\t\t\t\t\t\t 3. 29 \t\t 4. 30\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+                
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. 28\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q3()
+{
+    system("cls");
+    
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t In which year of First World War Germany declared war on Russia and France? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 1914 \t\t 2. 1915 \n \t\t\t\t\t\t\t\t\t\t 3. 1916 \t\t 4. 1917\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            // SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), {1,1});
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. 1914\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q4()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Which is the INDIA's National Bird? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Eagle \t\t 2. Sparrow \n \t\t\t\t\t\t\t\t\t\t 3. Crow \t\t 4. Peacock\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 4)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 4. Peacock\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q5()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t Which is the INDIA's National Animal? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Lion \t\t 2. Cheetah \n \t\t\t\t\t\t\t\t\t\t 3. Tiger \t\t 4. Leapord\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. Tiger\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q6()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t India has largest deposits of ____ in the world. \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. gold \t\t 2. copper \n \t\t\t\t\t\t\t\t\t\t 3. mica \t\t 4. Iron\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. Mica\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q7()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t How much districts are there in Meghalaya? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 12 \t\t 2. 2 \n \t\t\t\t\t\t\t\t\t\t 3. 5 \t\t 4. 9\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. 12\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q8()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t How many Lok Sabha seats belong to Rajasthan? \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. 32 \t\t 2. 25 \n \t\t\t\t\t\t\t\t\t\t 3. 30 \t\t 4. 17\n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 2)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 2. 25\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q9()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t India's first satellite is named after \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Aryabhatta \t\t 2. Bhaskara II \n \t\t\t\t\t\t\t\t\t\t 3. Bhaskara I \t\t 4. Albert Einstein \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 1)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 1. Aryabhatta\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
+
+void Q10()
+{
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    int ans;
+    char ak;
+    cout<<"\t\t\t\t\t\t\t\t\t\t India's tallest stone statue of the Jain sage Gomateswara is at \n";
+    cout<<"\t\t\t\t\t\t\t\t\t\t 1. Mysore, Karnakata \t\t 2. New Delhi \n \t\t\t\t\t\t\t\t\t\t 3. Sravanabelagola, Karnataka \t\t 4. Mandu, Madhya Pradesh \n";
+a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
+    cin>>ans;
+    cout<<"\n\t\t\t\t\t\t\t\t\t\t Is "<<ans<<" your final answer?(y/n): ";
+    cin>>ak;
+    if(ak == 'y' || ak == 'Y')
+    {
+        if (ans == 3)
+        {
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct Answer!!\n";
+            cout<<"\n\t\t\t\t\t\t\t\t\t\t Noice, Press any key for NEXT QUESTION!!";
+            score1 += 5;
+            count++;
+            getch();
+            
+        }
+        else
+        {
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Uh-Ohh Wrong Answer!\n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Correct answer is: 3. Sravanabelagola, Karnataka \n";
+           cout<<"\n\t\t\t\t\t\t\t\t\t\t Press any KEY to CONTINUE!!";
+           getch();
+           
+           gameover = false;
+        }    
+    }
+    else  goto a; 
+    
+}
