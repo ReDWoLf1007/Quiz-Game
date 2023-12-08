@@ -14,7 +14,7 @@
 
 using namespace std;
 
-char l[] = "ooooo";
+char l[] = "oooo";
 int i;
 
 HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
