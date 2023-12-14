@@ -22,7 +22,7 @@ a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
             score1 += 5;
             count++;
             getch();
-            // SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), {1,1});
+            
         }
         else
         {
@@ -97,7 +97,7 @@ a:  cout<<"\t\t\t\t\t\t\t\t\t\t Your Answer: ";
             score1 += 5;
             count++;
             getch();
-            // SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), {1,1});
+            
         }
         else
         {
