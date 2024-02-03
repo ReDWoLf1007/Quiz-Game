@@ -21,3 +21,13 @@ There are 20 Indian Culture questions and you can chose which genre from you wan
 It contains basic Indian culture questions that people should know.
 # General Knowledge
 There are 20 Indian Culture questions and you can chose which genre from you want to play the quiz part.
+# Games Involved
+# Snake Game
+One of the games the user can be directed to is the snake game.
+After answering the quiz qestions correctly, you can chose to play the snake game.
+# Brick Braker Game
+The second game involved is the brick game.
+We have to break all the bricks to win the game.
+# Ping Pong Game
+The third game involved is the ping pong game.
+We can play until we miss the ball.
